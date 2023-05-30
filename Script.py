@@ -11,7 +11,13 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = """<b>Hᴇʏ {} ɪᴍ 『 ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ 』 ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.</b>
+    START_TXT = """<b>Hello {} I an a Powerful Autofilter Bot. 
+    
+    I can give any Movie and TV Series to auto filter method. 🥳
+
+All you have to do is add me to a group and give me admin. 😌
+
+I will take care of the rest. 😎</b>
     
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>"""
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
@@ -26,16 +32,15 @@ class script(object):
 <b>›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>"""
     
     ABOUT_TXT = """🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}><b>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</b></a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme></b><b>sʜᴀʀᴀᴛʜ<b></a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
-📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat></b><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a><b>
+📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Get_Update_Official></b><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a><b>
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
-<b>DEVS:</b>
+<b>DEVS</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
