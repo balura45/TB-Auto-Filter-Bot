@@ -106,7 +106,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('📥 How To Download 📥', url='https://t.me/How_To_Open_and_Download/24')
+            InlineKeyboardButton('🇮🇳 Happy Independence Day 🇮🇳', url='https://graph.org/file/f6c113ce79d5cb526fcec.png')
         ]
     )
     btn.insert(1, 
@@ -710,7 +710,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('📥 How To Download 📥', url='https://t.me/How_To_Open_and_Download/24')
+            InlineKeyboardButton('🇮🇳 Happy Independence Day 🇮🇳', url='https://graph.org/file/f6c113ce79d5cb526fcec.png')
         ]
     )
     if offset != "":
