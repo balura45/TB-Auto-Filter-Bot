@@ -106,7 +106,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('🇮🇳 Happy Independence Day 🇮🇳', url='https://graph.org/file/f6c113ce79d5cb526fcec.png')
+            InlineKeyboardButton('⭕️ Update Channel ⭕️', url='https://t.me/Get_Update_Official')
         ]
     )
     btn.insert(1, 
@@ -710,8 +710,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('🇮🇳 Happy Independence Day 🇮🇳', url='https://graph.org/file/f6c113ce79d5cb526fcec.png')
-        ]
+            InlineKeyboardButton('⭕️ Update Channel ⭕️', url='https://t.me/Get_Update_Official')        ]
     )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
