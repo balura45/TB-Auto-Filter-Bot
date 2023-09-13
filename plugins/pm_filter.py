@@ -772,18 +772,18 @@ async def auto_filter(client, msg, spoll=False):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-            if SELF_DELETE:
+            if AUTO_DELETE:
                 await asyncio.sleep(AUTO_DELETE_SECONDS)
                 await hmm.delete()
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            if SELF_DELETE:
+            if AUTO_DELETE:
                 await asyncio.sleep(AUTO_DELETE_SECONDS)
                 await fek.delete()
     else:
         fuk = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        if SELF_DELETE:
+        if AUTO_DELETE:
             await asyncio.sleep(AUTO_DELETE_SECONDS)
             await fuk.delete()
 
