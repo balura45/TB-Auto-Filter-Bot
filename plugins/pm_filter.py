@@ -106,7 +106,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('⭕️ Update Channel ⭕️', url='https://t.me/Get_Update_Official')
+            InlineKeyboardButton('📥 How to Download 📥', url='https://t.me/How_To_Open_and_Download/24')
         ]
     )
     btn.insert(1, 
@@ -710,7 +710,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('⭕️ Update Channel ⭕️', url='https://t.me/Get_Update_Official')        ]
+            InlineKeyboardButton('📥 How to Download 📥', url='https://t.me/How_To_Open_and_Download/24')        ]
     )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
